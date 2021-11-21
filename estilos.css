@@ -1,0 +1,137 @@
+body{
+    background: url(assets/parejitajus.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+.overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #00254d4c;
+    z-index: 1;
+
+
+}
+
+.texto h1 {
+    font-size: 2.5rem;
+    text-align:center;
+    color:#f8f8f8;
+    font-weight: 700;
+    font-family: sans-serif;
+    
+}
+
+h1.title-h1{
+    color: rgb(206, 113, 0);
+    font-size: 2.5rem;
+    text-align:center;
+    font-weight: 700;
+    padding-top: 30px;
+    font-family: sans-serif;
+    text-decoration: double;
+    text-shadow: none;
+}
+
+button {
+    font-family: sans-serif;
+    display: inline-block;
+    border:none;
+    height:50px;
+    border-radius: 30px;
+    padding: 10px 0;
+    width: 200px;
+    background-color:#003c31;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: 1800;
+    transition: 150ms;
+    margin-top: 40px;
+}
+button:focus {
+    outline:none;
+}
+
+button:hover{
+    transform:translate(0, -5px) ;
+    transition: 0.6s;
+    background-color: rgba(0, 255, 255, 0.686);
+    color: black;
+}
+.name-form{
+    border: 1px solid #DBE1EB;
+    font-size: 18px;
+    font-family: Arial, Verdana;
+    margin-top: 5%;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 1px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #FFFFFF;
+    background: linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+    color: #2E3133;
+}
+.name-form:focus{
+    color: #2E3133;
+    border-color: #FBFFAD;
+}
+
+
+/*RESPONSIVE*/
+@media (min-width: 320px) and (max-width: 480px) {
+    body{
+        background: url(https://i.pinimg.com/474x/8d/cb/6b/8dcb6b95e1aa862c21a2d14c05627523.jpg);
+        
+    }
+    .texto h1{
+        font-size: 2.2rem;
+        text-align:center;
+        -webkit-text-stroke: 2.5px black;
+        color:#ffffff;
+        font-family: 'Nunito';
+        font-style: italic;
+        font-weight: 700;
+        filter: none;
+    }
+    h1.title-h1{
+        color: rgba(85, 199, 150, 0.975);
+        font-size: 2.5rem;
+        text-align:center;
+        font-weight: 1000;
+        padding-top: 30px;
+        font-family: 'Nunito';
+        text-decoration: double;
+    }
+    .overlay {
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #00254d4c;
+        z-index: 1;
+    
+
+    }
+}
