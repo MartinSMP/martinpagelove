@@ -97,7 +97,7 @@ button:hover{
 
 
 /*RESPONSIVE*/
-@media (max-width: 435px) and (max-width: 435px)  {
+@media (min-width: 290px) and (max-width: 435px)  {
     body{
         margin : 0;
 	    padding : 0;
