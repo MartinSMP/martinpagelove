@@ -23,8 +23,6 @@ body{
     left: 0;
     background: #00254d4c;
     z-index: 1;
-
-
 }
 
 .texto h1 {
@@ -99,13 +97,11 @@ button:hover{
 
 
 /*RESPONSIVE*/
-/*@media (min-width: 300px) and (max-width: 435px) {*/
-@media (max-width: 435px) and (max-height: 590px)  {
+@media (max-width: 435px) and (max-width: 435px)  {
     body{
         margin : 0;
 	    padding : 0;
         background: url(https://i.pinimg.com/474x/8d/cb/6b/8dcb6b95e1aa862c21a2d14c05627523.jpg);
-        
     }
     .texto h1{
         font-size: 2.2rem;
@@ -130,13 +126,10 @@ button:hover{
         height: 100%;
         width: 100%;
         position: absolute;
-        overflow-y: hidden;
         top: 0;
         left: 0;
-        background: #00254d4c;
+        background: #00254d74;
         z-index: 1;
         
-    
-
     }
 }
