@@ -99,7 +99,7 @@ button:hover{
 
 
 /*RESPONSIVE*/
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 435px) {
     body{
         background: url(https://i.pinimg.com/474x/8d/cb/6b/8dcb6b95e1aa862c21a2d14c05627523.jpg);
         
